@@ -1,0 +1,53 @@
+:root {
+    --background-blue: #E0E0E5;
+    --pale_seagreen: #ADDBC4;
+    --pale-grey-blue: #ADC5DB;
+    --green: #5B867F;
+
+
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--background-blue);
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+}
+.mainHome {
+   
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: nowrap;
+    background-color: var(--green);
+    color: var(--background-blue);
+    border-radius: 10px;
+   
+}
+ul {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+}
+li {
+    list-style: none;
+    width: 350px;
+    height: 250px;
+    color: black;
+    
+}
+ul div {
+    border: 2px solid var(--pale-grey-blue);
+
+}
+
+a {
+    text-decoration: none;
+}
